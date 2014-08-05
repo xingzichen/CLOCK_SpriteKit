@@ -17,7 +17,6 @@
 		EC77EAAA19910D5300D8947F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC77EAA819910D5300D8947F /* Main.storyboard */; };
 		EC77EAAD19910D5300D8947F /* XZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC77EAAC19910D5300D8947F /* XZViewController.m */; };
 		EC77EAB019910D5300D8947F /* XZMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = EC77EAAF19910D5300D8947F /* XZMyScene.m */; };
-		EC77EAB219910D5300D8947F /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = EC77EAB119910D5300D8947F /* Spaceship.png */; };
 		EC77EAB419910D5300D8947F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC77EAB319910D5300D8947F /* Images.xcassets */; };
 		EC77EABB19910D5300D8947F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC77EABA19910D5300D8947F /* XCTest.framework */; };
 		EC77EABC19910D5300D8947F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC77EA9419910D5300D8947F /* Foundation.framework */; };
@@ -53,7 +52,6 @@
 		EC77EAAC19910D5300D8947F /* XZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZViewController.m; sourceTree = "<group>"; };
 		EC77EAAE19910D5300D8947F /* XZMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZMyScene.h; sourceTree = "<group>"; };
 		EC77EAAF19910D5300D8947F /* XZMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZMyScene.m; sourceTree = "<group>"; };
-		EC77EAB119910D5300D8947F /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		EC77EAB319910D5300D8947F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EC77EAB919910D5300D8947F /* ClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC77EABA19910D5300D8947F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -128,7 +126,6 @@
 				EC77EAAC19910D5300D8947F /* XZViewController.m */,
 				EC77EAAE19910D5300D8947F /* XZMyScene.h */,
 				EC77EAAF19910D5300D8947F /* XZMyScene.m */,
-				EC77EAB119910D5300D8947F /* Spaceship.png */,
 				EC77EAB319910D5300D8947F /* Images.xcassets */,
 				EC77EA9D19910D5300D8947F /* Supporting Files */,
 			);
@@ -243,7 +240,6 @@
 			files = (
 				EC77EAA119910D5300D8947F /* InfoPlist.strings in Resources */,
 				EC77EAB419910D5300D8947F /* Images.xcassets in Resources */,
-				EC77EAB219910D5300D8947F /* Spaceship.png in Resources */,
 				EC77EAAA19910D5300D8947F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,6 +390,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Clock/Clock-Prefix.pch";
 				INFOPLIST_FILE = "Clock/Clock-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
@@ -408,6 +405,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Clock/Clock-Prefix.pch";
 				INFOPLIST_FILE = "Clock/Clock-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
